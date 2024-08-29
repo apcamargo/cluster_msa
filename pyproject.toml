@@ -1,0 +1,11 @@
+[project]
+name = "cluster-msa"
+version = "0.1.0"
+description = "Clusters sequences from a multiple sequence alignment (MSA) into distinct groups"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polyleven>=0.8",
+    "numpy>=2.1.0",
+    "scikit-learn>=1.5.1",
+]
